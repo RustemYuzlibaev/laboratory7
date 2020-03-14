@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include <cmath>
 
 using namespace std;
@@ -16,7 +17,7 @@ double alpha, beta, n, xx;
 void tau() {
     s1 = 0, s2 = 0, s3 = 0;
     for (int i = 0; i < Nexp; ++i) {
-        s1 += (yb[i]-pow(xb[i], n)*(1-pow(xb[i], n)));
+        s1 += (yb[i]-pow(xb[i], n))*(1-pow(xb[i], n));
         s2 += pow(1-pow(xb[i], n), 2);
     }
     tau0b = s1/s2;
@@ -35,11 +36,15 @@ void derivative() {
 }
 
 int main() {
+    cout << "Ref\ttau0\tK\tn\tL\t\tabs(L1)\t\tabs(L2)" << endl;
+
     for (int r = 0; r < Nexp; ++r) {
         for (int i = 0; i < Nexp; ++i) {
             xb[i] = x[i] / x[r];
             yb[i] = y[i] / y[r];
         }
+
+        a = 0, b = 2, eps = 1e-6, delta = eps/3;
 
         for (int j = 0; j < 1000; ++j) {
             alpha = (a + b) / 2 - delta;
@@ -62,10 +67,11 @@ int main() {
                 tau0 = tau0b * y[r];
                 KK = (y[r] - tau0) / pow(x[r], n);
                 derivative();
-
+                break;
             }
         }
-        cout << r << "  " << tau0 << "  " << KK << "  " << n << "  " << f << "  " << abs(f1) << "  " << abs(f2) << endl;
+        cout.precision(4);
+        cout << r+1 << "\t" << fixed << tau0 << "\t" << KK << "\t" << n << "\t" << scientific << setprecision(2) << f << "\t" << abs(f1) << "\t" << abs(f2) << endl;
     }
 
     return 0;
