@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+
 using namespace std;
 
 double x[10] = {1.0986, 1.3863, 1.6094, 1.7918, 1.9459, 2.0794, 2.1972, 2.3026, 2.3979, 2.4849};
@@ -51,7 +52,7 @@ int main() {
         FF(Nexp, x, y, n);
         Fa = F;
 
-        beta = a + 2 / (1 + pow(5, 0.5) * (b-a));
+        beta = a + 2 / (1 + pow(5, 0.5))*(b-a);
         n = beta;
 
         Ktau0(Nexp, x, y, n);
@@ -69,6 +70,7 @@ int main() {
         if ((b - a) < eps) {
             Ktau0(Nexp, x, y, n);
             FF(Nexp, x, y, n);
+            break;
         }
     }
 
