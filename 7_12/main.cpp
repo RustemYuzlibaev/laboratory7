@@ -50,6 +50,7 @@ int main() {
     double x[10] = {1.0986, 1.3863, 1.6094, 1.7918, 1.9459, 2.0794, 2.1972, 2.3026, 2.3979, 2.4849};
     double y[10] = {13.811, 16.850, 19.176, 21.060, 22.642, 24.005, 25.203, 26.270, 27.233, 28.109};
 
+    cout << "Nested outer cycle method. NAME LASTNAME group BPOi-16" << endl;
     cout << "Ref\ttau0\tK\tn\tF\t\tabs(F1)\t\tabs(F2)" << endl;
 
     for (int r = 0; r < Nexp; ++r) {

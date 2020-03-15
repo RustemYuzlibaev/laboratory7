@@ -36,6 +36,8 @@ void derivative() {
 }
 
 int main() {
+    cout << "One-dimensional reduction minimization method" << endl;
+    cout << "NAME LASTNAME group BPOi-16" << endl;
     cout << "Ref\ttau0\tK\tn\tL\t\tabs(L1)\t\tabs(L2)" << endl;
 
     for (int r = 0; r < Nexp; ++r) {
@@ -76,3 +78,5 @@ int main() {
 
     return 0;
 }
+
+

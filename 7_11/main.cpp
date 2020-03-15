@@ -38,7 +38,7 @@ int main() {
     double y[10] = {13.811, 16.850, 19.176, 21.060, 22.642, 24.005, 25.203, 26.270, 27.233, 28.109};
 
 
-
+    cout << "Outer cycle method. NAME LASTNAME group BPOi-16" << endl;
     cout << "r" << setw(8) << "tau0" << setw(8) << "K" << setw(8) << "n" << setw(8) << "L" << setw(16) << "L1" << setw(8) << "L2" << endl;
 
     for (int r = 0; r < Nexp; ++r) {

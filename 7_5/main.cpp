@@ -41,6 +41,8 @@ int main() {
         }
     }
 
+    cout << "Simple iteration method for solving systems of nonlinear equations" << endl;
+    cout << "NAME LASTNAME group BPOi-16" << endl;
     cout << "tau0: " << tau0 << endl;
     cout << "K: " << K << endl;
     cout << "n: " << n << endl;

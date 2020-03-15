@@ -46,6 +46,7 @@ int main() {
             H = (-H) / 2;
         }
     }
+    cout << "Coordinate descent method. NAME LASTNAME group BPOi-16" << endl;
     cout << "tau0:  " << tau0 << endl;
     cout << "K:  " << K << endl;
     cout << "n:  " << n << endl;

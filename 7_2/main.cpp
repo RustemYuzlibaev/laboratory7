@@ -55,7 +55,7 @@ int main()
             break;
         }
     }
-
+    cout << "Constant step gradient descent method. NAME LASTNAME group BPOi-16" << endl;
     cout <<  "tau0\t" << "K\t" << "n\t" << "F\t" << "F1\t" << "F2\t" << "F3\t" << endl;
     cout.precision(4);
     cout << fixed << tau0 << "\t" << K << "\t" << n << "\t" << F << "\t" << F1 << "\t" << F2 << "\t" << F3 << endl;
