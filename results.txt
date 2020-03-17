@@ -1,0 +1,96 @@
+Outer cycle method. Tatyana Vorobyova group BPOi-16
+tau0: 0.624649
+K: 9.14897
+n: 0.342177
+F: 6.57822e-10
+F1: -1.52198e-12
+F2: -2.38409e-12
+F3: -1.39622e-11
+
+
+
+
+
+Outer cycle method. Alina Zharmukhametova group BPOi-16
+tau0: 2.01431
+K: 9.52143
+n: 0.336844
+F: 1.39523e-09
+F1: -7.51399e-13
+F2: -1.16838e-12
+F3: -1.21469e-12
+
+
+
+
+Outer cycle method. Azamat Ishmuratov group BPOi-16
+tau0: 0.808998
+K: 8.51723
+n: 0.527062
+F: 3.04278e-09
+F1: -2.4194e-13
+F2: -5.01539e-13
+F3: -5.8018e-11
+
+
+
+
+
+Outer cycle method. Kamil Kamalov group BPOi-16
+tau0: 1.01614
+K: 7.89291
+n: 0.657789
+F: 5.00416e-09
+F1: -1.21858e-13
+F2: -2.08856e-13
+F3: 1.07976e-10
+
+
+
+
+
+Outer cycle method. Danil Kudryashov group BPOi-16
+tau0: 1.99824
+K: 8.25134
+n: 0.623765
+F: 4.00002e-09
+F1: 2.75691e-13
+F2: 6.09563e-13
+F3: 4.00083e-11
+
+
+
+
+Outer cycle method. Murat Tlyaumbetov group BPOi-16
+tau0: 0.803793
+K: 7.84246
+n: 0.739299
+F: 4.3047e-09
+F1: 1.03739e-13
+F2: 1.99594e-13
+F3: -1.44492e-10
+
+
+
+
+
+Outer cycle method. Rustem Yuzlibaev group BPOi-16
+tau0: 2.03666
+K: 9.66286
+n: 0.457685
+F: 4.7732e-09
+F1: -3.6664e-13
+F2: -6.0522e-13
+F3: -4.44584e-11
+
+
+
+
+Outer cycle method. Albina Yakhina group BPOi-16
+tau0: 1.23311
+K: 8.95827
+n: 0.597234
+F: 3.59737e-09
+F1: 6.03961e-13
+F2: 1.45436e-12
+F3: -1.98613e-11
