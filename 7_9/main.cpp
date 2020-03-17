@@ -55,7 +55,7 @@ int main() {
                 F100();
                 F200();
 
-            } while( L >  L0);
+            } while( L < L0);
 
 
             if ((pow(tau0b - tau0b0, 2) + pow(n - n0, 2)) < eps) {
