@@ -26,19 +26,19 @@ int main() {
             F0 = F;
             tau0 += H;
             Func();
-        } while (F - F0 > 0);
+        } while (F - F0 < 0);
 
         do {
             F0 = F;
             K += H;
             Func();
-        } while (F - F0 > 0);
+        } while (F - F0 < 0);
 
         do {
             F0 = F;
             n += H;
             Func();
-        } while (F - F0 > 0);
+        } while (F - F0 < 0);
 
         if (abs(H) > eps / 2) {
             continue;
